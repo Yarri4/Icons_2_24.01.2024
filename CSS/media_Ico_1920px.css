@@ -1,0 +1,61 @@
+@media screen and (min-width: 960px) {
+    .img_39{
+        background: url(../img/icon/1920px/imgIco39.png);
+    }
+    .img_37{
+        background: url(../img/icon/1920px/imgIco37.png);
+    }
+    .img_55{
+        background: url(../img/icon/1920px/imgIco55.png);
+    }
+    .img_35{
+        background: url(../img/icon/1920px/imgIco35.png);
+    }
+    .img_42{
+        background: url(../img/icon/1920px/imgIco42.png);
+    }
+    .img_38{
+        background: url(../img/icon/1920px/imgIco38.png);
+    }
+    .img_43{
+        background: url(../img/icon/1920px/imgIco43.png);
+    }
+    .img_41{
+        background: url(../img/icon/1920px/imgIco41.png);
+    }
+    .img_40{
+        background: url(../img/icon/1920px/imgIco40.png);
+    }
+    .img_36{
+        background: url(../img/icon/1920px/imgIco36.png);
+    }
+    .ico_img{
+        width: 80px;
+        height: 80px;
+        flex-shrink: 0;
+    }
+    .section__1920px{
+        gap: 16px;
+    }
+    .ico_conteiner{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        column-gap: 104px;
+    }
+    .ico_wrapper {
+        margin: 32px 208px 64px 208px;
+        height: auto;
+    }
+    .ico_block:nth-child(5) {
+        flex-direction: row-reverse;
+        gap: 102px;
+    }
+    .ico_block:nth-child(4) {
+        gap: 102px;
+    }
+    .ico_block:nth-child(2) {
+        padding-left: 37px;
+        gap: 106px;
+    }
+}

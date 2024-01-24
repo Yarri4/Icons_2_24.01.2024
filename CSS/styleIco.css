@@ -1,0 +1,85 @@
+.ico_wrapper {
+    width: auto;
+    height: auto;
+    flex-shrink: 0;
+    margin: 24px 24px;
+}
+.ico_conteiner { 
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.ico_block {
+    display: flex;
+    gap: 16px;
+    flex-direction: column;
+}
+.text__style{
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+.ico_text { 
+    align-self: center;
+}
+.ico_text:hover{
+    color: var(---, #06C);
+    cursor: pointer;
+}
+.ico_text:active{
+    color: var(---, rgb(143, 154, 165));
+    user-select: none;
+}
+
+.ico_section {
+    display: flex;
+    flex-direction: row;
+}
+.section__375px{
+    gap: 12px;
+}
+.ico_img{
+    width: 48px;
+    height: 48px;
+}
+.img_39{
+    background: url(../img/icon/375px/imgIco39.png);
+}
+.img_37{
+    background: url(../img/icon/375px/imgIco37.png);
+}
+.img_55{
+    background: url(../img/icon/375px/imgIco55.png);
+}
+.img_35{
+    background: url(../img/icon/375px/imgIco35.png);
+}
+.img_42{
+    background: url(../img/icon/375px/imgIco42.png);
+}
+.img_38{
+    background: url(../img/icon/375px/imgIco38.png);
+}
+.img_43{
+    background: url(../img/icon/375px/imgIco43.png);
+}
+.img_41{
+    background: url(../img/icon/375px/imgIco41.png);
+}
+.img_40{
+    background: url(../img/icon/375px/imgIco40.png);
+}
+.img_36{
+    background: url(../img/icon/375px/imgIco36.png);
+}
+.style-opacity{
+    opacity: 50%;
+}
+@font-face {
+    font-family: "Roboto";
+    src:
+    url("../fonts/Roboto-Medium.ttf") format('truetype');
+}
