@@ -1,12 +1,19 @@
 @media screen and (min-width: 768px) {
     .ico_block {
-        display: flex;
-        flex-direction: row;
-        gap: 0;
+        display: grid;
+        grid-template-columns: 1fr;
     }
+
+    .ico_conteiner {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: baseline
+    }
+
     .section__768px{
         gap: 16px;
     }
+
     .ico_wrapper {
         width: auto;
         height: auto;
@@ -14,7 +21,7 @@
         margin: 32px 0px 48px 40px;
     }
 
-    .ico_block:nth-child(1) {
+    /* .ico_block:nth-child(1) {
         gap: 73px;
     }
     .ico_block:nth-child(2) {
@@ -28,7 +35,7 @@
     }
     .ico_block:nth-child(5) {
         gap: 75px;
-    }
+    } */
     
     .ico_img{
         width: 64px;
