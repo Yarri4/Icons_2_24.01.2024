@@ -72,13 +72,16 @@
     }
     .ico_conteiner{
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(7, 3fr);
+        grid-auto-flow: column;
+        width: auto;
+        height: auto;
     }
     .ico_wrapper {
         margin: 32px 208px 64px 208px;
         height: auto;
     }
-    .ico_block:nth-child(5) {
+    /* .ico_block:nth-child(5) {
         flex-direction: row-reverse;
         gap: 102px;
     }
@@ -88,5 +91,5 @@
     .ico_block:nth-child(2) {
         padding-left: 37px;
         gap: 106px;
-    }
+    } */
 }
