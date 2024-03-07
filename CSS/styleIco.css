@@ -46,67 +46,67 @@
     height: 48px;
 }
 .img_39{
-    background: url(../img/icon/375px/imgIco39.png);
+    background: url(https://static.rusgeocom.ru/build/html/prod/generator/img/icon/375px/imgIco39.png);
 }
 .img_37{
-    background: url(../img/icon/375px/imgIco37.png);
+    background: url(https://static.rusgeocom.ru/build/html/prod/generator/img/icon/375px/imgIco37.png);
 }
 .img_55{
-    background: url(../img/icon/375px/imgIco55.png);
+    background: url(https://static.rusgeocom.ru/build/html/prod/generator/img/icon/375px/imgIco55.png);
 }
 .img_35{
-    background: url(../img/icon/375px/imgIco35.png);
+    background: url(https://static.rusgeocom.ru/build/html/prod/generator/img/icon/375px/imgIco35.png);
 }
 .img_42{
-    background: url(../img/icon/375px/imgIco42.png);
+    background: url(https://static.rusgeocom.ru/build/html/prod/generator/img/icon/375px/imgIco42.png);
 }
 .img_38{
-    background: url(../img/icon/375px/imgIco38.png);
+    background: url(https://static.rusgeocom.ru/build/html/prod/generator/img/icon/375px/imgIco38.png);
 }
 .img_43{
-    background: url(../img/icon/375px/imgIco43.png);
+    background: url(https://static.rusgeocom.ru/build/html/prod/generator/img/icon/375px/imgIco43.png);
 }
 .img_41{
-    background: url(../img/icon/375px/imgIco41.png);
+    background: url(https://static.rusgeocom.ru/build/html/prod/generator/img/icon/375px/imgIco41.png);
 }
 .img_40{
-    background: url(../img/icon/375px/imgIco40.png);
+    background: url(https://static.rusgeocom.ru/build/html/prod/generator/img/icon/375px/imgIco40.png);
 }
 .img_1{
-    background: url(../img/icon/375px/imgIco1.png);
+    background: url(https://static.rusgeocom.ru/build/html/prod/generator/img/icon/375px/imgIco1.png);
 }
 .img_2{
-    background: url(../img/icon/375px/imgIco2.png);
+    background: url(https://static.rusgeocom.ru/build/html/prod/generator/img/icon/375px/imgIco2.png);
 }
 .img_3{
-    background: url(../img/icon/375px/imgIco3.png);
+    background: url(https://static.rusgeocom.ru/build/html/prod/generator/img/icon/375px/imgIco3.png);
 }
 .img_4{
-    background: url(../img/icon/375px/imgIco4.png);
+    background: url(https://static.rusgeocom.ru/build/html/prod/generator/img/icon/375px/imgIco4.png);
 }
 .img_5{
-    background: url(../img/icon/375px/imgIco5.png);
+    background: url(https://static.rusgeocom.ru/build/html/prod/generator/img/icon/375px/imgIco5.png);
 }
 .img_6{
-    background: url(../img/icon/375px/imgIco6.png);
+    background: url(https://static.rusgeocom.ru/build/html/prod/generator/img/icon/375px/imgIco6.png);
 }
 .img_7{
-    background: url(../img/icon/375px/imgIco7.png);
+    background: url(https://static.rusgeocom.ru/build/html/prod/generator/img/icon/375px/imgIco7.png);
 }
 .img_8{
-    background: url(../img/icon/375px/imgIco8.png);
+    background: url(https://static.rusgeocom.ru/build/html/prod/generator/img/icon/375px/imgIco8.png);
 }
 .img_9{
-    background: url(../img/icon/375px/imgIco9.png);
+    background: url(https://static.rusgeocom.ru/build/html/prod/generator/img/icon/375px/imgIco9.png);
 }
 .img_11{
-    background: url(../img/icon/375px/imgIco11.png);
+    background: url(https://static.rusgeocom.ru/build/html/prod/generator/img/icon/375px/imgIco11.png);
 }
 .img_36{
-    background: url(../img/icon/375px/imgIco36.png);
+    background: url(https://static.rusgeocom.ru/build/html/prod/generator/img/icon/375px/imgIco36.png);
 }
 .img_12{
-    background: url(../img/icon/375px/imgIco12.png);
+    background: url(https://static.rusgeocom.ru/build/html/prod/generator/img/icon/375px/imgIco12.png);
 }
 
 .style-opacity{
@@ -115,5 +115,89 @@
 @font-face {
     font-family: "Roboto";
     src:
-    url("../fonts/Roboto-Medium.ttf") format('truetype');
+    url("https://static.rusgeocom.ru/build/html/prod/generator/fonts/Roboto-Medium.ttf") format('truetype');
+}
+
+
+
+
+.ico_title_container{
+    display: flex;
+    height: 48px;
+    background: #EFEFEF;
+    margin-bottom: 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ico_text_title{
+    display:grid;
+    margin-left:16px;
+    align-items: center;
+}
+
+.text_title_style{
+    color: #0F5789;
+    font-family: Roboto;
+    text-transform: uppercase;
+    white-space: wrap;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+}
+.text_title_pro{
+    color:#FAA631;
+    position: relative;
+    font-family: Roboto;
+    text-transform: uppercase;
+    white-space: nowrap;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 20px;
+    
+}
+.text_title_pro::before {
+    content: "";
+    background-color: #FAA631;
+    position: absolute;
+    left: -20px;
+    height: 16px;
+    width: 16px;
+    clip-path: polygon(0 0, 100% 0, 100% 75%, 75% 100%, 0 100%);
+}
+.ico_image_title{
+    width: 72px;
+    height: 32px;
+    display: none;
+}
+.ico_text { 
+    align-self: center;
+    display: flex;
+    flex-direction: row;
+}
+.ico_text:hover{
+    color: var(---, #06C);
+    cursor: pointer;
+}
+.ico_text:active{
+    color: var(---, rgb(143, 154, 165));
+    user-select: none;
+}
+.ico_section {
+    display: flex;
+    flex-direction: row;
+    order:0;
+}
+.section__375px{
+    gap: 12px;
+}
+.ico_img{
+    width: 48px;
+    height: 48px;
 }
