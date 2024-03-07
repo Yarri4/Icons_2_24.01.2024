@@ -14,29 +14,49 @@
         gap: 16px;
     }
 
+
+/* css Шапки */
     .ico_wrapper {
         width: auto;
         height: auto;
         flex-shrink: 0;
         margin: 32px 0px 48px 40px;
     }
+    .ico_image_title{
+        height:40px;
+        width: 88px;
+    }
+    .ico_title_container{
+        background-size: 100% 100%;
+        background-image: linear-gradient(130deg, #EFEFEF  0%, #EFEFEF  48%, #FFFFFF 48%, #FFFFFF 50%, #0F5789 50%, #0F5789 100%);
+    }
+    .ico_text_title{
+        display: flex;
+        flex-direction: row;
+    }
+    .text_title_style{
+        color: #0F5789;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 20px; 
+        margin-left: 20px;
+    }
+    .text_title_pro{
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 20px;
+        margin-left: 35px;
+    }
 
-    /* .ico_block:nth-child(1) {
-        gap: 73px;
+    .text_title_pro::before {
+        left: -25px;
+        height: 20px;
+        width: 20px;
+        clip-path: polygon(0 0, 100% 0, 100% 75%, 75% 100%, 0 100%);
     }
-    .ico_block:nth-child(2) {
-        gap: 31px;
-    }
-    .ico_block:nth-child(3) {
-        gap: 78px;
-    }
-    .ico_block:nth-child(4) {
-        gap: 26px;
-    }
-    .ico_block:nth-child(5) {
-        gap: 75px;
-    } */
-    
+/* css Шапки */
+
+
     .ico_img{
         width: 64px;
         height: 64px;
